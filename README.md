@@ -3,7 +3,8 @@
 1. ILSVRC2012_img_val.tar
 2. mkdir_imagenet_2012_validation.sh
 3. mv_imagenet_2012_validation.sh
-2與3是由
+
+* 2與3是由
 https://raw.githubusercontent.com/tensorflow/models/master/research/inception/inception/data/imagenet_2012_validation_synset_labels.txt
 標籤檔轉換而來
 
