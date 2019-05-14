@@ -20,6 +20,7 @@ https://raw.githubusercontent.com/tensorflow/models/master/research/inception/in
     #移出 mkdir_imagenet_2012_validation.sh,  mv_imagenet_2012_validation.sh
     mv mkdir_imagenet_2012_validation.sh ../
     mv mv_imagenet_2012_validation.sh ../
+    
     #=========
     docker pull mxnet/python
     mkdir /tmp/mxnet
