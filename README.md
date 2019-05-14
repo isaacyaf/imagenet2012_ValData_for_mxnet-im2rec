@@ -5,7 +5,6 @@
 2與3是由
 https://raw.githubusercontent.com/tensorflow/models/master/research/inception/inception/data/imagenet_2012_validation_synset_labels.txt
 標籤檔轉換而來
-
 mkdir val
 mv mkdir_imagenet_2012_validation.sh ./val
 mv mv_imagenet_2012_validation.sh ./val
@@ -17,7 +16,6 @@ tar -xvf ../ILSVRC2012_img_val.tar
 #移出 mkdir_imagenet_2012_validation.sh,  mv_imagenet_2012_validation.sh
 mv mkdir_imagenet_2012_validation.sh ../
 mv mv_imagenet_2012_validation.sh ../
-
 #=========
 docker pull mxnet/python
 mkdir /tmp/mxnet
