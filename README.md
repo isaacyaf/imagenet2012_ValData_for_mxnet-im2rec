@@ -33,7 +33,7 @@ https://raw.githubusercontent.com/tensorflow/models/master/research/inception/in
     pip install opencv-python==3.2.0.8
 
     cd /mnt
-    #python /mxnet/tools/im2rec.py --list  --recursive  train /mnt/train
-    #python /mxnet/tools/im2rec.py --num-thread=8 train.lst /mnt/train
+     #python /mxnet/tools/im2rec.py --list  --recursive  train /mnt/train
+     #python /mxnet/tools/im2rec.py --num-thread=8 train.lst /mnt/train
     python /mxnet/tools/im2rec.py --list  --recursive  val /mnt/val
     python /mxnet/tools/im2rec.py --num-thread=8 val.lst /mnt/val
