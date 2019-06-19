@@ -17,7 +17,7 @@ https://raw.githubusercontent.com/tensorflow/models/master/research/inception/in
     #mkdir_imagenet_2012_validation.sh,  mv_imagenet_2012_validation.sh 
     ./mkdir_imagenet_2012_validation.sh
     ./mv_imagenet_2012_validation.sh
-    #移出 mkdir_imagenet_2012_validation.sh,  mv_imagenet_2012_validation.sh
+    #Move out mkdir_imagenet_2012_validation.sh and mv_imagenet_2012_validation.sh
     mv mkdir_imagenet_2012_validation.sh ../
     mv mv_imagenet_2012_validation.sh ../
     
