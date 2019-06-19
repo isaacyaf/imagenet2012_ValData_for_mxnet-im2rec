@@ -1,12 +1,11 @@
-請確保擁有docker環境
-與 同目錄(/tmp/Imagenet/)下包含的資料
+Make sure you have a docker environment
+in the (/tmp/Imagenet/), It contains the underlying information
 1. ILSVRC2012_img_val.tar
 2. mkdir_imagenet_2012_validation.sh
 3. mv_imagenet_2012_validation.sh
 
-* 2與3是由
+* Thet label of val are from
 https://raw.githubusercontent.com/tensorflow/models/master/research/inception/inception/data/imagenet_2012_validation_synset_labels.txt
-標籤檔轉換而來
 
 ***
 
@@ -27,9 +26,9 @@ https://raw.githubusercontent.com/tensorflow/models/master/research/inception/in
     mkdir /tmp/mxnet
     cd /tmp/mxnet
     git clone https://github.com/apache/incubator-mxnet.git
-    #同時掛載資料集與git mxnet資料 
+    #Mount imagenet dataset and mxnet
     docker run --rm -v /tmp/mxnet/incubator-mxnet/:/mxnet -v /tmp/Imagenet/:/mnt -it mxnet/python bash
-    #需要特定版本的cv來支援python2.7
+    #Need a specific version of cv to support python2.7
     pip install opencv-python==3.2.0.8
 
     cd /mnt
