@@ -13,6 +13,8 @@ in the (/tmp/Imagenet/), It contains the underlying information
 * Thet label of val are from
 https://raw.githubusercontent.com/tensorflow/models/master/research/inception/inception/data/imagenet_2012_validation_synset_labels.txt
 
+
+Flowchart
 ***
 
     mkdir val
